@@ -59,13 +59,10 @@ REM SYSINTERNALS KIT
     net use x: \\live.sysinternals.com\Tools\
     xcopy /s x:\ c:\sysinternals\
     net use x: /d
-
-REM AUTOPSY
-    echo "Install is from https://www.autopsy.com/download/"
+	echo "SysInternals kit is in the C drive."
 
 REM NIRSOFT Tools
     echo "Install of all NIRSOFT tools is available at https://www.nirsoft.net"
 
-REM Revo Uninstaller
-    echo "Install is from https://www.revouninstaller.com/revo-uninstaller-free-download/"
-
+REM Autopsy Tool
+	echo "Install is from https://www.autopsy.com/download/"
